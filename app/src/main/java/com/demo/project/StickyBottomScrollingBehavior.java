@@ -6,7 +6,6 @@ import android.support.design.widget.AppBarLayout;
 import android.support.design.widget.CoordinatorLayout;
 import android.support.v4.view.ViewCompat;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewParent;
@@ -91,13 +90,13 @@ public class StickyBottomScrollingBehavior extends AppBarLayout.ScrollingViewBeh
     }
 
 
-    public void addPinnedView(View view) {
+    public void addStickyView(View view) {
         if (view != null && !mPinnedViewList.contains(view)) {
             mPinnedViewList.add(view);
         }
     }
 
-    public void removePinnedView(View view) {
+    public void removeStickyView(View view) {
         if (view != null && mPinnedViewList.contains(view)) {
             mPinnedViewList.remove(view);
         }
