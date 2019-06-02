@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
         findViewById(R.id.button_scroll_flag).setOnClickListener(this);
         findViewById(R.id.button_sticky_bottom).setOnClickListener(this);
+        findViewById(R.id.button_weird_sticky).setOnClickListener(this);
     }
 
     @Override
@@ -25,6 +26,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.button_sticky_bottom:
                 intent = new Intent(this, StickyBottomActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.button_weird_sticky:
+                intent = new Intent(this, WeirdStickyBottomActivity.class);
                 startActivity(intent);
                 break;
         }

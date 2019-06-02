@@ -2,7 +2,10 @@
     <string name="app_name">DemoProject</string>
     <string name="button_scroll_behavior">Scroll Behavior Demo</string>
     <string name="button_sticky_bottom">Sticky Bottom Demo</string>
+    <string name="button_weird_sticky_bottom">Weird Sticky Bottom</string>
     <string name="sticky_layout">This is a sticky layout</string>
+    <string name="button_add">Add</string>
+    <string name="button_delete">Delete</string>
 
     <string name="sticky_bottom_behavior">com.demo.project.StickyBottomScrollingBehavior</string>
 </resources>

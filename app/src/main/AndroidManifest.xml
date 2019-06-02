@@ -23,6 +23,9 @@
         <activity
             android:name=".ScrollBehaviorActivity"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".WeirdStickyBottomActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>
